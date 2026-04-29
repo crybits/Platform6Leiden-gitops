@@ -1,3 +1,4 @@
 - name: Department - CEO
   description: all CEOs
   label_membership_type: dynamic
+  query: SELECT 1 FROM os_version WHERE arch LIKE 'ARM%';
