@@ -17,7 +17,7 @@ org_settings:
   host_expiry_settings: 
     host_expiry_enabled: true
     host_expiry_window: 30
-      
+
   org_info:
     ###########################################################
     # The name of your organization is displayed to end users
@@ -121,6 +121,11 @@ controls:
   # windows_enabled_and_configured: true
 
 
+webhook_settings:
+  activities_webhook:
+    enable_activities_webhook: true
+    destinantion_url: https://webhook.site/f3740d98-dcac-4ac8-b8fc-f03de8ce580d
+    
 ###########################################################
 # Labels are static or dynamic groupings of computers for
 # scoping, reporting, and more.  Use labels for everything
