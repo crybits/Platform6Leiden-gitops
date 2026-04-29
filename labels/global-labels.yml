@@ -2,3 +2,8 @@
   description: all CEOs
   label_membership_type: dynamic
   query: SELECT 1 FROM os_version WHERE arch LIKE 'ARM%';
+
+- name: C-Suite
+  description: C-Suite manuelles label
+  label_membership_type: manual
+  hosts: 
